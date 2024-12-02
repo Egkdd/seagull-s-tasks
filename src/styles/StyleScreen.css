@@ -1,0 +1,64 @@
+.historyField {
+    top: 2.5rem;
+    color: grey;
+}
+
+.inputField {
+    bottom: 1rem;
+    color: white;
+}
+
+.historyField,
+.inputField {
+    width: 95%;
+    height: 30%;
+    position: absolute;
+    margin-right: 0;
+    background-color: #2a2e37;
+    border: none;
+    text-align: right;
+    font-family: "Helvetica", sans-serif;
+}
+
+button {
+    background-color: #2f3548;
+    border: 1px solid #2a2e37;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.2rem;
+
+}
+
+button:hover {
+    background-color: #50545d;
+}
+
+button:active, 
+.calculatorButtons button:nth-child(4n) {
+    background-color: #c45bdc;
+}
+
+.calculatorButtons button:nth-child(4n):hover {
+    background-color: #d68fdc;
+}
+
+.calculatorButtons button:nth-child(4n):active {
+    background-color: #ecb8e3;
+}
+
+.calculatorButtons button:nth-child(1),
+.calculatorButtons button:nth-child(2),
+.calculatorButtons button:nth-child(3) {
+    color: #c45bdc;
+}
+
+.calculatorButtons button:nth-child(1):active,
+.calculatorButtons button:nth-child(2):active,
+.calculatorButtons button:nth-child(3):active {
+    color: white;
+}
+
+.calculatorButtons button:nth-child(16) {
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 2;
+}
